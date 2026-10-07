@@ -55,3 +55,13 @@ class MyTheme extends StatelessWidget {
     );
   }
 }
+
+class Catur {
+  static String Title = "Grandmaster";
+  String namaPemain;
+  Catur(this.namaPemain);
+
+  void pesanan() {
+    print("Introducing $namaPemain No 1 $Title.");
+  }
+}
