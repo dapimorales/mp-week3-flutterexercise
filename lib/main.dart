@@ -65,3 +65,36 @@ class Catur {
     print("Introducing $namaPemain No 1 $Title.");
   }
 }
+
+class FontTextWidget extends StatelessWidget {
+  const FontTextWidget({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          'Normal',
+          style: TextStyle(
+            fontSize: 20,
+          ),
+        ),
+
+        Text(
+          'Bold',
+          style: TextStyle(
+            fontSize: 20,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+
+        Text(
+          'Semi Bold',
+          style: TextStyle(
+            fontSize: 20,
+            fontWeight: FontWeight.w600,
+          ),
+        ),
+
+        Text(
